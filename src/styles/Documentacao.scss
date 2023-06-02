@@ -1,0 +1,35 @@
+.documentacao__wrapper {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.documentacao__headerContainer {
+  background-color: white;
+  margin: 8rem 0 0 0;
+  width: 100vw;
+  height: 10%;
+  padding: 1rem 0 0 1.5rem;
+  h2 {
+    opacity: 0.8;
+  }
+}
+
+.documentacao__docsContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: 3rem 0 0 0;
+  width: 100vw;
+  height: 40%;
+  padding: 1rem 0 0 1.5rem;
+  a {
+    color: rgb(0, 79, 143);
+    text-decoration: none;
+    padding: 0.75rem;
+  }
+}

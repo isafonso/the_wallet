@@ -1,0 +1,35 @@
+.pagamentos__recebidos-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.pagamentos__recebidos-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 95%;
+  height: 10%;
+  margin: 10rem 1rem 0 1rem;
+  background-color: white;
+}
+
+.pagamentos__recebidos-titleHeading {
+  color: grey;
+  text-indent: 1rem;
+  font-weight: 300;
+}
+
+.pagamentos__recebidos-boxContract {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  height: 20%;
+  margin: 1rem 1rem 0 1rem;
+  background-color: white;
+}

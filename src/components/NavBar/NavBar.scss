@@ -1,0 +1,108 @@
+.navbar__header {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0.25rem;
+  z-index: 99;
+  background-color: white;
+  box-shadow: 0 0 0.5rem grey;
+  width: 100%;
+  h1 {
+    display: none;
+    @media screen and (max-width: 600px) {
+      opacity: 0;
+      display: flex;
+      flex: 1;
+      flex-direction: row;
+    }
+  }
+  div {
+    display: none;
+    background-color: white;
+    @media screen and (max-width: 600px) {
+      display: flex;
+      flex: 1;
+      flex-direction: row;
+      background-color: white;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    position: relative;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    background-color: white;
+  }
+}
+
+.navbar__btn {
+  display: none;
+  @media screen and (max-width: 600px) {
+    display: flex;
+    position: absolute;
+    right: 0.5rem;
+    top: 1rem;
+    padding: 3px;
+    background-color: rgb(0, 102, 143);
+    width: 50px;
+    height: 50px;
+    border-style: none;
+    border-radius: 0.5rem;
+    svg {
+      margin: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.navbar__list {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  list-style-type: none;
+  padding: 2rem;
+  li {
+    cursor: pointer;
+    a {
+      text-decoration: none;
+      &:hover {
+        color: rgb(0, 102, 143);
+      }
+    }
+    div {
+      display: none;
+    }
+    &:hover {
+      div {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        position: absolute;
+        li {
+          color: rgb(0, 102, 143);
+          a {
+            color: black;
+            text-decoration: none;
+            &:hover {
+              color: rgb(0, 102, 143);
+            }
+          }
+          padding: 1rem;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 600px) {
+    display: none;
+  }
+}

@@ -1,0 +1,190 @@
+.backoffice__container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow-y: auto;
+  overflow-x: hidden;
+  @media screen and (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow-y: auto;
+  }
+}
+
+.backoffice__welcome {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7rem;
+  margin-left: 1rem;
+  margin-right: 7rem;
+  padding: 2rem;
+  width: 98%;
+  height: 50%;
+  background-color: rgb(0, 102, 143);
+  border-radius: 2px;
+  span {
+    color: white;
+    text-align: center;
+    margin: 1rem;
+  }
+  h1,
+  h4 {
+    color: white;
+    margin: 1rem;
+    text-align: center;
+    @media screen and (max-width: 600px) {
+      margin: 0;
+    }
+  }
+  a {
+    background-color: white;
+    color: rgb(0, 102, 143);
+    margin-top: 1rem;
+    padding: 1rem;
+    border-style: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    font-size: 18;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  @media screen and (max-width: 600px) {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0;
+    margin: 3rem 0 0 0;
+  }
+}
+
+.backoffice__coin-container {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 0 0.5rem grey;
+  height: 100%;
+  margin: 5rem 2rem 0 3rem;
+  @media screen and (max-width: 600px) {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0 0 0.5rem grey;
+    margin: 1rem 0;
+    height: 100%;
+  }
+}
+
+.backoffice__coin {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  svg {
+    width: 50%;
+    height: 100%;
+    @media screen and (max-width: 600px) {
+      width: 100%;
+      height: 100%;
+      margin-right: 5rem;
+    }
+  }
+  div {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    @media screen and (max-width: 600px) {
+      height: 100%;
+    }
+    h4 {
+      font-weight: 700;
+      padding: 0.5rem;
+      text-align: center;
+    }
+    span {
+      font-weight: 100;
+      opacity: 0.5;
+      text-align: center;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 1rem;
+  }
+}
+
+.backoffice__solicitar-pagamento {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 0 0.5rem grey;
+  margin: 3rem 2rem 0 2rem;
+  h1 {
+    font-weight: 700;
+    padding: 1rem;
+  }
+  h4 {
+    font-weight: 700;
+    opacity: 0.5;
+  }
+  a {
+    background-color: rgb(0, 102, 143);
+    padding: 1rem;
+    border-radius: 1rem;
+    border-style: none;
+    cursor: pointer;
+    width: 25%;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    @media screen and (max-width: 600px) {
+      width: 50%;
+      font-size: 1rem;
+    }
+  }
+  span {
+    font-weight: 500;
+    font-size: 1.25rem;
+    opacity: 1;
+  }
+  @media screen and (max-width: 600px) {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 0 0.5rem grey;
+    margin: 1rem 0 0 0;
+  }
+}

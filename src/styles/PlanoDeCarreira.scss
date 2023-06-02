@@ -1,0 +1,118 @@
+.plano__de__carreira-wrapper {
+  display: flex;
+  margin-top: 5rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.plano__de__carreira-pointsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 9);
+  width: 100vw;
+  height: 100%;
+  padding: 2rem;
+}
+
+.plano__de__carreira-contentContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  margin-top: 4rem;
+  @media (max-width: 480px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    margin-top: 4rem;
+  }
+}
+
+.plano__de__carreira-itemsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 9);
+  img {
+    width: 75%;
+    height: 50%;
+    object-fit: cover;
+    margin: 0.5rem;
+  }
+  h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0.5rem;
+    opacity: 0.7;
+  }
+  h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: red;
+    margin: 0.5rem;
+  }
+  span {
+    &:first-child {
+      opacity: 0.5;
+    }
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0.5rem;
+  }
+  em {
+    margin: 0.5rem;
+  }
+  progress {
+    padding: 1rem;
+  }
+  @media (max-width: 480px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 9);
+    margin-bottom: 3em;
+    img {
+      width: 75%;
+      height: 50%;
+      object-fit: cover;
+      margin: 0.5rem;
+    }
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin: 0.5rem;
+      opacity: 0.7;
+    }
+    h3 {
+      font-size: 2rem;
+      font-weight: 500;
+      color: red;
+      margin: 0.5rem;
+    }
+    span {
+      &:first-child {
+        opacity: 0.5;
+      }
+      font-size: 1.5rem;
+      font-weight: 500;
+      margin: 0.5rem;
+    }
+    em {
+      margin: 0.5rem;
+    }
+    progress {
+      padding: 1rem;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+export { default as Home } from "./Home";
+export { default as CustodiarArrendar } from "./CustodiarArrendar";
+export { default as BackOffice } from "./BackOffice";
+export { default as Login } from "./Login";
+export { default as SolicitarPagamento } from "./SolicitarPagamento";
+export { default as SaldoEspecial } from "./SaldoEspecial";
+export { default as ContractosActivos } from "./ContractosActivos";
+export { default as ContractosPendentes } from "./ContractosPendentes";
+export { default as ContractosFinalizados } from "./ContractosFinalizados";
+export { default as PagamentosRecebidos } from "./PagamentosRecebidos";
+export { default as PagamentosPendentes } from "./PagamentosPendentes";
+export { default as Consultor } from "./Consultor";
+export { default as PlanoDeCarreira } from "./PlanoDeCarreira";
+export { default as PremiacoesSolicitadas } from "./PremiacoesSolicitadas";
+export { default as Documentacao } from "./Documentacao";
+export { default as ActivacoesDeTerceiros } from "./ActivacoesDeTerceiros";
+export { default as Saldo } from "./Saldo";
